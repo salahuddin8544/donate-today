@@ -38,7 +38,6 @@ h2{
     height: 600px;
     color: white;
     background:rgba(0,0,0,0.4);
-
 }
 .header-title h1 {
     font-size: 70px;
@@ -50,17 +49,14 @@ h2{
     margin-bottom: 30px;
 }
 /* Donate today start here */
-.donate-today{}
 .donate-title{
     text-align: center;
-    
 }
 .donate-amount{
     display: flex;
     width:80%;
     margin-left: 20%;
 }
-
 .donate-amount-money {
     width: 140px;
     height: 116px;
@@ -71,7 +67,6 @@ h2{
 }
 .tomato-color{
     background:rgba(168, 44, 22, 0.527);
-    border: 2px solid tomato;
     color: rgba(133, 38, 21, 0.568);
 }
 .black-color{
@@ -80,10 +75,10 @@ h2{
 .donate-other-amount{
     text-align: center;
 }
-.donate-other-amount hr{
-    width:50%;
+.donate-other-amount hr {
+    width: 55%;
     margin-bottom: 40px;
-    
+    margin-left: 21%;
 }
 #button-donate{
     margin-left: 45%;
@@ -113,6 +108,81 @@ h2{
 .donate-cards h3{
     font-size: 25px;
 }
-
-
+.flexable{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 45%;
+    margin:0 5%;
+}
+.half-width img{
+    width:100%;
+    height: 400px;
+}
 /* Donate today end here */
+/* team section start here */
+.team{
+    text-align: center;
+}
+.team h2{
+    font-size: 30px;
+}
+.team-member{
+    display: flex;
+    justify-content: center;
+}
+.team-member img {
+    width: 20%;
+    border-radius: 50%;
+    border: 5px solid tomato;
+    margin: 23px;
+}
+/* team section end here */
+/* update section start here */
+
+.updates{
+    text-align: center;
+}
+.input-area {
+    width: 80%;
+    background-color: rgba(214, 113, 95, 0.459);
+    margin: 0 10%;
+    border-radius: 5px;
+    padding: 50px 0;
+}
+.input-area input{
+    padding: 6px 4px;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    outline: none;
+}
+.input-area a {
+    padding: 4px 7px;
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    margin-left: -4px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* update section end here */
+/* footer section start here */
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+footer h3{
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+}
+/* footer section end here */
