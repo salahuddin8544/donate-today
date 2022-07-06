@@ -3,6 +3,9 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif
 }
+section{
+    margin-bottom: 80px;
+}
 span{
     color: tomato;
 }
@@ -85,14 +88,31 @@ h2{
 #button-donate{
     margin-left: 45%;
 }
-.donate-plan-items{
+.donate-plan-items {
     display: flex;
+    justify-content: center;
 }
 .donate-cards{
-    width: 20%;
+   width: 25%;
+   margin:20px;
+   padding:40px 20px;
+   border-radius:8px;;
 }
-.donate-cards img{}
-.donate-cards h3{}
-.donate-cards p{}
+.donate-cards img{
+    width: 50px;
+}
+#donate-blood{
+    background-color: #5f68705d;
+}
+#donate-bus{
+    background-color: #3c5a408f;
+}
+#donate-cloth{
+    background-color: #74427588;
+}
+.donate-cards h3{
+    font-size: 25px;
+}
+
 
 /* Donate today end here */
