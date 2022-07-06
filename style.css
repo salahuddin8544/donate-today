@@ -7,7 +7,9 @@ span{
     color: tomato;
 }
 p{
-
+    color: #5c5050;
+    font-size: 20px;
+    line-height: 40px;
 }
 h2{
     font-size: 40px;
@@ -41,7 +43,8 @@ h2{
     padding-top: 100px;
 }
 .header-title p {
-    line-height: 40px;
+    color: white;
+    margin-bottom: 30px;
 }
 /* Donate today start here */
 .donate-today{}
@@ -71,4 +74,25 @@ h2{
 .black-color{
     background: rgba(85, 68, 65, 0.253);;
 }
+.donate-other-amount{
+    text-align: center;
+}
+.donate-other-amount hr{
+    width:50%;
+    margin-bottom: 40px;
+    
+}
+#button-donate{
+    margin-left: 45%;
+}
+.donate-plan-items{
+    display: flex;
+}
+.donate-cards{
+    width: 20%;
+}
+.donate-cards img{}
+.donate-cards h3{}
+.donate-cards p{}
+
 /* Donate today end here */
